@@ -1,3 +1,1 @@
-pikepdf
-os
-sys
+pikepdf==2.3.0
