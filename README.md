@@ -7,19 +7,19 @@ Type these commands one by one
 
 <code>
 apt update && apt upgrade
-</code><br>
+</code><br><br>
 <code>
 pkg install python
-</code><br>
+</code><br><br>
 <code>
 git clone https://github.com/dark-anon/Dark-Brute
-</code><br>
+</code><br><br>
 <code>
 pip install requirements
-</code><br>
+</code><br><br>
 <code>
 ls
-</code><br>
+</code><br><br>
 <code>
 cd Dark-Brute
 </code><br>
