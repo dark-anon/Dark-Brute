@@ -15,7 +15,7 @@ pkg install python
 git clone https://github.com/dark-anon/Dark-Brute
 </code><br><br>
 <code>
-pip install requirements
+pip install -r requirements.txt
 </code><br><br>
 <code>
 ls
