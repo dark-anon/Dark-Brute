@@ -35,7 +35,7 @@ res = '\x1b[40m'
 # ------------ BANNER ----------------
 
 def banner():
-    os.system('cls')
+    os.system('clear')
     Ban =(
             G+'''
                  ________                __           __________                __
@@ -79,7 +79,7 @@ def cracker():
 
     check = str(input(G+'\n╚══'+m+'〙'+u+'Enter file location'+m+' ▶ '+h))
 
-    file = open("pdf cracker/wordlist.txt").readlines()
+    file = open("Dark-Brute/wordlist.txt").readlines()
 
     
 
@@ -87,21 +87,13 @@ def cracker():
     for password in file:
         try:
 
-            T1 = datetime.now()
 
             with pikepdf.open(check ,password.strip()) as pdf:
 
                 print(G+"=======> [+] password found: "+b+"{}\n".format(password))
                 
                 
-            T2 = datetime.now()
- 
-            T3 = T2.strftime("%S")-T1.strftime("%S")
-
-            print("Scan completed in : "+T3)       
-
-           
-           
+                       
             break
                
             
